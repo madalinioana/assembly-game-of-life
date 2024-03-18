@@ -1,4 +1,4 @@
-# Conway's Game of Life Simulation and Symmetric Encryption
+# Conway's Game of Life in Assembly
 
 ## Overview
 
