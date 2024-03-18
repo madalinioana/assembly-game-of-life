@@ -43,7 +43,7 @@ To perform symmetric encryption or decryption:
 3. Input the message.
 4. View the encrypted or decrypted output.
 
-## File Structure
+### File Structure
 
 - `game_of_life_implementation.asm`: Implementation of Conway's Game of Life Simulation.
 - `symmetric_encryption_and_decryption.asm`: Implementation of Symmetric Encryption and Decryption using Cellular Automata.
@@ -51,7 +51,7 @@ To perform symmetric encryption or decryption:
 - `input/`: Sample input files for testing.
 - `output/`: Sample output files for reference.
 
-## Example
+### Example
 
 To illustrate the usage, consider the following:
 
