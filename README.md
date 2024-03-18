@@ -45,6 +45,9 @@ To perform symmetric encryption or decryption:
 
 ## File Structure
 
+- `game_of_life_implementation.asm`: Implementation of Conway's Game of Life Simulation.
+- `symmetric_encryption_and_decryption.asm`: Implementation of Symmetric Encryption and Decryption using Cellular Automata.
+- `file_based_input_and_output.asm`: File Input/Output (I/O) for Conway's Game of Life Simulation.
 - `input/`: Sample input files for testing.
 - `output/`: Sample output files for reference.
 
