@@ -54,7 +54,3 @@ To illustrate the usage, consider the following:
 
 1. Simulating Conway's Game of Life with a predefined initial configuration.
 2. Encrypting a message using the cellular automaton evolution as the encryption key.
-
----
-
-**Note:** For detailed instructions, refer to the documentation provided in the `docs/` directory.
