@@ -40,7 +40,7 @@ To perform symmetric encryption or decryption:
 
 1. Compile and execute the encryption program.
 2. Choose the encryption or decryption mode.
-3. Input the message (plaintext or ciphertext).
+3. Input the message.
 4. View the encrypted or decrypted output.
 
 ## File Structure
