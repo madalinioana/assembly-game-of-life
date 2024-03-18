@@ -1,8 +1,8 @@
-# Conway's Game of Life Simulation and Symmetric Encryption
+# Conway's Game of Life in Assembly
 
 ## Overview
 
-This repository contains an implementation of Conway's Game of Life, a zero-player game invented by mathematician John Horton Conway in 1970. Additionally, it includes functionality for symmetric encryption and decryption using cellular automata principles inspired by the game.
+This project contains an implementation of Conway's Game of Life, a zero-player game invented by mathematician John Horton Conway in 1970. Additionally, it includes functionality for symmetric encryption and decryption using cellular automata principles inspired by the game.
 
 ### Conway's Game of Life
 
@@ -40,36 +40,13 @@ To perform symmetric encryption or decryption:
 
 1. Compile and execute the encryption program.
 2. Choose the encryption or decryption mode.
-3. Input the message (plaintext or ciphertext).
+3. Input the message.
 4. View the encrypted or decrypted output.
 
-## File Structure
+### File Structure
 
+- `game_of_life_implementation.asm`: Implementation of Conway's Game of Life Simulation.
+- `symmetric_encryption_and_decryption.asm`: Implementation of Symmetric Encryption and Decryption using Cellular Automata.
+- `file_based_input_and_output.asm`: File Input/Output (I/O) for Conway's Game of Life Simulation.
 - `input/`: Sample input files for testing.
 - `output/`: Sample output files for reference.
-
-## Requirements
-
-- C compiler for compiling the source code.
-- Standard libraries for file I/O operations.
-- Text editor or IDE for code modifications.
-
-## Example
-
-To illustrate the usage, consider the following:
-
-1. Simulating Conway's Game of Life with a predefined initial configuration.
-2. Encrypting a message using the cellular automaton evolution as the encryption key.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- John Horton Conway for inventing the Game of Life.
-- Contributors to the field of cellular automata and cryptography.
-
----
-
-**Note:** For detailed instructions, refer to the documentation provided in the `docs/` directory.
