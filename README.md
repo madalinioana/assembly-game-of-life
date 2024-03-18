@@ -1,80 +1,75 @@
-# Cellular Automaton Project: Conway's Game of Life and Symmetric Encryption
+# Conway's Game of Life Simulation and Symmetric Encryption
 
 ## Overview
 
-Welcome to our project repository for the Cellular Automaton project! In this project, we implement Conway's Game of Life, a classic cellular automaton simulation, and integrate symmetric encryption techniques using cellular automata principles.
+This repository contains an implementation of Conway's Game of Life, a zero-player game invented by mathematician John Horton Conway in 1970. Additionally, it includes functionality for symmetric encryption and decryption using cellular automata principles inspired by the game.
 
 ### Conway's Game of Life
 
-Conway's Game of Life is a fascinating simulation where cells evolve based on simple rules. It's a popular topic in the realm of cellular automata and computational science.
+Conway's Game of Life is a two-dimensional cellular automaton where the evolution of a system of cells is determined by simple rules based on the cells' immediate neighbors. The rules dictate whether a cell lives, dies, or is born in the next generation based on the number of live neighbors.
 
 ### Symmetric Encryption
 
-We explore how cellular automaton rules can be applied to symmetric encryption. By leveraging the dynamic evolution of cellular automata, we demonstrate a simple yet effective encryption technique.
+Symmetric encryption is achieved using the cellular automaton system's evolution as a key. By encrypting or decrypting a message with the result of a cellular automaton generation, secure communication can be established.
 
 ## Features
 
 - **Game of Life Simulation:**
-  - Generate and visualize generations of cells based on predefined rules.
-  - Input custom initial configurations and observe system evolution.
-  - Handle boundary conditions for a seamless simulation experience.
+  - Generate successive generations of cells based on predefined rules.
+  - Input initial configurations and observe the evolution of the system.
+  - Support for extending the matrix to handle boundary conditions.
 
 - **Symmetric Encryption:**
-  - Encrypt and decrypt messages using the evolving states of the cellular automaton.
+  - Encrypt and decrypt messages using the cellular automaton's evolving states.
+  - Input messages for encryption or decryption.
   - Provide options for encryption or decryption mode.
-  - Support for inputting messages and viewing encrypted or decrypted output.
 
 ## Usage
 
 ### Game of Life Simulation
 
-1. Compile and run the provided program.
-2. Input the desired parameters: grid dimensions, initial live cells, and number of generations.
-3. Observe the evolution of the cellular automaton.
+To simulate Conway's Game of Life:
+
+1. Compile and execute the provided program.
+2. Enter the number of rows, columns, initial live cells, their positions, and the number of generations.
+3. View the successive generations of the cellular automaton.
 
 ### Symmetric Encryption
 
-1. Compile and run the encryption program.
-2. Choose encryption or decryption mode.
+To perform symmetric encryption or decryption:
+
+1. Compile and execute the encryption program.
+2. Choose the encryption or decryption mode.
 3. Input the message (plaintext or ciphertext).
 4. View the encrypted or decrypted output.
 
-## Project Structure
+## File Structure
 
-- `src/`: Contains the source code for the Game of Life simulation and symmetric encryption.
-- `docs/`: Documentation files, including this README.md.
 - `input/`: Sample input files for testing.
 - `output/`: Sample output files for reference.
 
 ## Requirements
 
 - C compiler for compiling the source code.
-- Basic understanding of cellular automata principles.
-- Familiarity with symmetric encryption techniques.
+- Standard libraries for file I/O operations.
+- Text editor or IDE for code modifications.
 
 ## Example
 
-To get started, you can:
+To illustrate the usage, consider the following:
 
-1. Simulate Conway's Game of Life with a predefined initial configuration.
-2. Explore symmetric encryption by encrypting a sample message.
-
-## Contributors
-
-- [Your Name]
-- [Your Classmates' Names]
-
-Feel free to contribute to the project by adding new features, improving documentation, or suggesting enhancements!
+1. Simulating Conway's Game of Life with a predefined initial configuration.
+2. Encrypting a message using the cellular automaton evolution as the encryption key.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code according to the terms of the license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Special thanks to John Horton Conway for his pioneering work in cellular automata.
-- Thanks to our instructors and peers for their support and feedback throughout the project.
+- John Horton Conway for inventing the Game of Life.
+- Contributors to the field of cellular automata and cryptography.
 
 ---
 
-**Note:** For detailed instructions and additional information, refer to the documentation provided in the `docs/` directory.
+**Note:** For detailed instructions, refer to the documentation provided in the `docs/` directory.
